@@ -104,6 +104,7 @@ function fishOnce(){
     }else{
         // use villager probability distribution for fishing
         let randNum = Math.random();
+
         if (randNum <0.1) {
             numCod++;
             imgResultEl.src = "img/Raw-Cod.png";
@@ -123,3 +124,4 @@ function fishOnce(){
             numPufferEl.innerHTML = numPuffer;
         }
     }
+}
