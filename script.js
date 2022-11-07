@@ -10,6 +10,9 @@ let numCodEl = document.getElementById("num-cod");
 let numTropicalEl= document.getElementById("num-tropical");
 let numSalmonEl = document.getElementById("num-salmon");
 let numPufferEl = document.getElementById("num-puffer");
+let plus5Btn = document.gteElememtNyId("plus5");
+let until200Btn = document.getElementById("until200");
+
 
 // global variables
 let character= "Steve";
@@ -24,6 +27,7 @@ steveImgEl.addEventListener("click",selectSteve);
 alexImgEl.addEventListener("click",selectAlex);
 villagerImgEl.addEventListener("click",selectVillager);
 fishBtnEl.addEventListener("click", fishOnce );
+plus5Btn.addEventListener("click", plus5);
 
 
 // Event Functions
